@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 5px;
+  }
+
+.sidebar {
+    padding: 1rem 4rem;
+    font-size: 4rem;
+    background-color: rgb(27, 164, 244);
+    color: white;
+    height: 100vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar > * {
+  padding: 5rem 0rem;
+}
+
+.sidebar > div {
+  padding: 1rem 0rem;
+}
